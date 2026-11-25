@@ -96,10 +96,11 @@ host-specific; Agent Plugins defines the package, not a universal installer.
 
 ## Provenance and maintenance
 
-`skills.lock.json` records the exact source commit, name mapping, and SHA-256
-hashes for every vendored source file. Canonical and portable trees are kept
-in parity except for their intentional frontmatter names and Codex-only
-`agents/openai.yaml` metadata.
+The initial vendored source is `metalagman/agent-skills` commit
+`023dfe82afa5fbbb4a630c5dc73d43cdd124932a`. `skills.lock.json` records that
+revision, the name mapping, and SHA-256 hashes for every vendored source file.
+Canonical and portable trees are kept in parity except for their intentional
+frontmatter names and Codex-only `agents/openai.yaml` metadata.
 
 Run the contract suite before publishing changes:
 
