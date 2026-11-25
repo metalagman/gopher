@@ -154,7 +154,13 @@ console.log(JSON.stringify(added.map((item) => item.id).sort()))
         self.assertEqual(registered, sorted(f"gopher-{name}" for name in NAMES))
 
     def test_manifest_contains_exactly_142_files(self):
-        files = [path for path in ROOT.rglob("*") if path.is_file() and ".git" not in path.parts]
+        files = [
+            path for path in ROOT.rglob("*")
+            if path.is_file()
+            and ".git" not in path.parts
+            and "__pycache__" not in path.parts
+            and path.suffix != ".pyc"
+        ]
         self.assertEqual(len(files), 142)
 
 
