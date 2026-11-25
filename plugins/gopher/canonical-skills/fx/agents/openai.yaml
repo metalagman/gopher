@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Fx"
+  short_description: "Build Go applications with Uber Fx"
+  default_prompt: "Use $gopher:fx to design or review this Uber Fx application."

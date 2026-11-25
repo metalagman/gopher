@@ -1,0 +1,4 @@
+interface:
+  display_name: "golangci-lint Strict"
+  short_description: "Pin strict golangci-lint configuration"
+  default_prompt: "Use $gopher:golangci-lint-strict to install the matching strict lint config."

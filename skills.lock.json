@@ -1,0 +1,360 @@
+{
+  "version": 1,
+  "source": {
+    "repository": "https://github.com/metalagman/agent-skills",
+    "commit": "023dfe82afa5fbbb4a630c5dc73d43cdd124932a"
+  },
+  "skills": [
+    {
+      "source": "go-adk",
+      "canonical": "adk",
+      "files": [
+        {
+          "path": "references/core-primitives.md",
+          "source_sha256": "d16eb4a2c1bb9f3dd0a9a99b20ace48ce961651401b9358940d9879a3c9abfc6",
+          "canonical_sha256": "d16eb4a2c1bb9f3dd0a9a99b20ace48ce961651401b9358940d9879a3c9abfc6"
+        },
+        {
+          "path": "references/llms-index.md",
+          "source_sha256": "5e9ca8c445d28bde11bed84736c7416cddb71b0cc72b7bb4c58482ca327e2848",
+          "canonical_sha256": "5e9ca8c445d28bde11bed84736c7416cddb71b0cc72b7bb4c58482ca327e2848"
+        },
+        {
+          "path": "references/models-and-operations.md",
+          "source_sha256": "1f11d634d1b58c36b56d38ca7bbf92a45bd492bfecf7ed46f0c68922ec809390",
+          "canonical_sha256": "1f11d634d1b58c36b56d38ca7bbf92a45bd492bfecf7ed46f0c68922ec809390"
+        },
+        {
+          "path": "references/quickstart.md",
+          "source_sha256": "7021d932ce6b8add3a7b420b6aa31afc9d025842df41b66598bd7eb2cb723da9",
+          "canonical_sha256": "7021d932ce6b8add3a7b420b6aa31afc9d025842df41b66598bd7eb2cb723da9"
+        },
+        {
+          "path": "references/runtime-and-examples.md",
+          "source_sha256": "9e4a23804ca0cb1bef0514b59001475d83e77e1320be10bb259f442443c15016",
+          "canonical_sha256": "9e4a23804ca0cb1bef0514b59001475d83e77e1320be10bb259f442443c15016"
+        },
+        {
+          "path": "references/tools-and-guardrails.md",
+          "source_sha256": "5362c71d315a1a33b38ece788e59d1e3c6cfc6aed6080aeb54c10c3aaaaf09ca",
+          "canonical_sha256": "5362c71d315a1a33b38ece788e59d1e3c6cfc6aed6080aeb54c10c3aaaaf09ca"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "e0bdbfd7c5843fc65e1f2d33229517b3e18dd47f2980126bb49fddf54454f48d",
+          "canonical_sha256": "ee1b02a4b7cb5839f1c0978972a20b4babe8268f4097070b81c53ee560421b7e"
+        }
+      ]
+    },
+    {
+      "source": "go-fx",
+      "canonical": "fx",
+      "files": [
+        {
+          "path": "references/annotations-and-groups.md",
+          "source_sha256": "6ac2d905ebc233552df5f59af4da7fc7773f93dd107bdfe863cd1034b3377d96",
+          "canonical_sha256": "6ac2d905ebc233552df5f59af4da7fc7773f93dd107bdfe863cd1034b3377d96"
+        },
+        {
+          "path": "references/dependency-objects.md",
+          "source_sha256": "b3c7a5b542f3f3ef82ee10769fd1ba186952d986b76556b2454e2758c201d16e",
+          "canonical_sha256": "b3c7a5b542f3f3ef82ee10769fd1ba186952d986b76556b2454e2758c201d16e"
+        },
+        {
+          "path": "references/lifecycle.md",
+          "source_sha256": "9ca30f1d0031b2fc66af7522332e1300660927d60bb65c68740fdaedd8d18107",
+          "canonical_sha256": "9ca30f1d0031b2fc66af7522332e1300660927d60bb65c68740fdaedd8d18107"
+        },
+        {
+          "path": "references/modules.md",
+          "source_sha256": "ae2c4a81255eb69d13a37942b997a9f7fe79e372ae105e20f092f04b3c04669d",
+          "canonical_sha256": "ae2c4a81255eb69d13a37942b997a9f7fe79e372ae105e20f092f04b3c04669d"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "5ffebce6c68318b0da28bd2e7794cbea1c5efc0c2b9fe1cbbbf854ab88ff05d3",
+          "canonical_sha256": "83c0aac33e64c00e568369d11690f636734396d8205df1e7feb83f77f42f8c1a"
+        }
+      ]
+    },
+    {
+      "source": "go-google-best-practices",
+      "canonical": "google-best-practices",
+      "files": [
+        {
+          "path": "references/best-practices.md",
+          "source_sha256": "ff0e79db2ec01d216d945cadc89cae6e8f3043d4b39a4e7abc59f27d22ab0acd",
+          "canonical_sha256": "ff0e79db2ec01d216d945cadc89cae6e8f3043d4b39a4e7abc59f27d22ab0acd"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "d6c42a1d2e8c2424304f1370387a3422b2bce5cab8816e1a99bad360efb1f19d",
+          "canonical_sha256": "3b3076f160104161a66a00ae983560c8f844281401cabd6ae58a979372902c73"
+        }
+      ]
+    },
+    {
+      "source": "go-google-style-decisions",
+      "canonical": "google-style-decisions",
+      "files": [
+        {
+          "path": "references/decisions.md",
+          "source_sha256": "6fb4fe59d23cee2dd581ea057343989c2ccdd19f54489eb76f028dc729c32466",
+          "canonical_sha256": "6fb4fe59d23cee2dd581ea057343989c2ccdd19f54489eb76f028dc729c32466"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "11a4182edbe7ae97cf758b717967dfa2141006f258ea8c5cae363d34b453b60c",
+          "canonical_sha256": "d6273d25f64ceec97e47a9f0c503b7588613bbe02afb4a407ea933fc47707e3b"
+        }
+      ]
+    },
+    {
+      "source": "go-google-style-guide",
+      "canonical": "google-style-guide",
+      "files": [
+        {
+          "path": "references/guide.md",
+          "source_sha256": "98a9492c2a6e445c59021cc9c972d8986fd1ec7f5034c9d44b177a98ae8e8490",
+          "canonical_sha256": "98a9492c2a6e445c59021cc9c972d8986fd1ec7f5034c9d44b177a98ae8e8490"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "1699ac4a7f66a014b4d85d33b839c752c81ae2fc3c39ead337eee05218cf464b",
+          "canonical_sha256": "bbaf112936f7f449329fc04844875c0b4bc7a92de0762f1a1204b813fb7cfecc"
+        }
+      ]
+    },
+    {
+      "source": "go-goose",
+      "canonical": "goose",
+      "files": [
+        {
+          "path": "references/cli.md",
+          "source_sha256": "2645c9858cad6df512d14fd873be20b5df3b5991d9e717a75588d43872add52d",
+          "canonical_sha256": "2645c9858cad6df512d14fd873be20b5df3b5991d9e717a75588d43872add52d"
+        },
+        {
+          "path": "references/go-migrations.md",
+          "source_sha256": "eb8458a839e9502a4532d33a8401255df3f072843a04b929bc5e16fcc1b0273d",
+          "canonical_sha256": "eb8458a839e9502a4532d33a8401255df3f072843a04b929bc5e16fcc1b0273d"
+        },
+        {
+          "path": "references/library.md",
+          "source_sha256": "7837fa5731fa8a7967e41106041804e8a52ae8c9d06aeccf6404440f7e408a58",
+          "canonical_sha256": "7837fa5731fa8a7967e41106041804e8a52ae8c9d06aeccf6404440f7e408a58"
+        },
+        {
+          "path": "references/sql-annotations.md",
+          "source_sha256": "5aa00a0c7ae3f2e0e9bb9d2b5770e33e90d64ae2836d7760b0a0e69854a6c07d",
+          "canonical_sha256": "5aa00a0c7ae3f2e0e9bb9d2b5770e33e90d64ae2836d7760b0a0e69854a6c07d"
+        },
+        {
+          "path": "references/versioning.md",
+          "source_sha256": "73b155c9f7f24e1c93cea45b4c511e5a7aa0bfa9ff6fe126b12e98962a532b12",
+          "canonical_sha256": "73b155c9f7f24e1c93cea45b4c511e5a7aa0bfa9ff6fe126b12e98962a532b12"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "b29971c53c36dfd7baea4a8c72a4f60c3a7b1ec9411992f0a9a792a578ac403f",
+          "canonical_sha256": "aedc856d0ef2d8cc03a34ff6e0c15bb5b29f3ff326afac3fb60dbe6883d44fd2"
+        }
+      ]
+    },
+    {
+      "source": "go-options-gen",
+      "canonical": "options-gen",
+      "files": [
+        {
+          "path": "assets/go-generate/client.go",
+          "source_sha256": "0741b58a5fb6334971b7209a88a824d4c3a687866ec020fa2b4c7ed7f3e656e1",
+          "canonical_sha256": "0741b58a5fb6334971b7209a88a824d4c3a687866ec020fa2b4c7ed7f3e656e1"
+        },
+        {
+          "path": "assets/go-generate/options_generated.go",
+          "source_sha256": "1f0367274030f0389441a2e8404c2371ec443b2fbac7a5955bb8711e2c418906",
+          "canonical_sha256": "1f0367274030f0389441a2e8404c2371ec443b2fbac7a5955bb8711e2c418906"
+        },
+        {
+          "path": "assets/go-generate/options.go",
+          "source_sha256": "0ec7c357f9780946efac0ec2a7ba798899450b48792a9323071d2a9f3259cacc",
+          "canonical_sha256": "0ec7c357f9780946efac0ec2a7ba798899450b48792a9323071d2a9f3259cacc"
+        },
+        {
+          "path": "assets/go-generate/README.md",
+          "source_sha256": "a01147cb9f39f04c3e6ec9b021dc91ef63a83d67d0bd645161ed987c62aa0456",
+          "canonical_sha256": "a01147cb9f39f04c3e6ec9b021dc91ef63a83d67d0bd645161ed987c62aa0456"
+        },
+        {
+          "path": "assets/go-generate-2options-1pkg/client.go",
+          "source_sha256": "f5ddf89e108e898401d021db8a58ff9cd244f582752833af5bcdbdbe5be95db3",
+          "canonical_sha256": "f5ddf89e108e898401d021db8a58ff9cd244f582752833af5bcdbdbe5be95db3"
+        },
+        {
+          "path": "assets/go-generate-2options-1pkg/options.go",
+          "source_sha256": "111254008f30ad2ca59425986aad0d70afc06949f60bf5e2a92c386c63ce6043",
+          "canonical_sha256": "111254008f30ad2ca59425986aad0d70afc06949f60bf5e2a92c386c63ce6043"
+        },
+        {
+          "path": "assets/go-generate-2options-1pkg/options1_generated.go",
+          "source_sha256": "fd5fafa44afc4be8daa99ba7044245bdc4c778eb51ced18a1210b1430c44c092",
+          "canonical_sha256": "fd5fafa44afc4be8daa99ba7044245bdc4c778eb51ced18a1210b1430c44c092"
+        },
+        {
+          "path": "assets/go-generate-2options-1pkg/options2_generated.go",
+          "source_sha256": "6becd18009b2196f8ed692ddc8a1538ea4709a9106cd44c9bbbd1547d8c6703b",
+          "canonical_sha256": "6becd18009b2196f8ed692ddc8a1538ea4709a9106cd44c9bbbd1547d8c6703b"
+        },
+        {
+          "path": "assets/go-generate-2options-1pkg/README.md",
+          "source_sha256": "b80a1d72d4a7aa1954528ef973aaf41b5ae1c3530e4b7a221881700978c9eb66",
+          "canonical_sha256": "b80a1d72d4a7aa1954528ef973aaf41b5ae1c3530e4b7a221881700978c9eb66"
+        },
+        {
+          "path": "assets/go-generate-generics/client.go",
+          "source_sha256": "060805e0bf0e75de2facd5b93261a93b9d7dd986447208727445822f06785d5b",
+          "canonical_sha256": "060805e0bf0e75de2facd5b93261a93b9d7dd986447208727445822f06785d5b"
+        },
+        {
+          "path": "assets/go-generate-generics/options_generated.go",
+          "source_sha256": "e14976a7f74f38617eeb93b86424f02a328ab40fab46b1f714598242b1eab1c5",
+          "canonical_sha256": "e14976a7f74f38617eeb93b86424f02a328ab40fab46b1f714598242b1eab1c5"
+        },
+        {
+          "path": "assets/go-generate-generics/options.go",
+          "source_sha256": "1ebc8f1bb6560d5de48e48c48325b91f625d86cd059f632e894ae8114657ead7",
+          "canonical_sha256": "1ebc8f1bb6560d5de48e48c48325b91f625d86cd059f632e894ae8114657ead7"
+        },
+        {
+          "path": "assets/go-generate-generics/README.md",
+          "source_sha256": "67330cbb7bbb70e007134e0dbb31804b1646d2f8a0a914b0fd449c4c5f097e25",
+          "canonical_sha256": "67330cbb7bbb70e007134e0dbb31804b1646d2f8a0a914b0fd449c4c5f097e25"
+        },
+        {
+          "path": "assets/README.md",
+          "source_sha256": "1bdd7dcd11059bc81fcb6e991396ed03e65f02ccae4e7e6844d80fd6d0564f6d",
+          "canonical_sha256": "1bdd7dcd11059bc81fcb6e991396ed03e65f02ccae4e7e6844d80fd6d0564f6d"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "cb3bcabac1f96bbedcbbe910042d5b862e906925974db29b8db8052436cd2604",
+          "canonical_sha256": "40b98caf759856f64c0cda0e6c5c9fe45486a4445da750111698c2e63ba978bd"
+        }
+      ]
+    },
+    {
+      "source": "go-oss-maintainer",
+      "canonical": "oss-maintainer",
+      "files": [
+        {
+          "path": "assets/.aiignore",
+          "source_sha256": "637f7f523b668a67c97fa21b8046a641cc6953815a5f4928e8155ed941a60413",
+          "canonical_sha256": "637f7f523b668a67c97fa21b8046a641cc6953815a5f4928e8155ed941a60413"
+        },
+        {
+          "path": "assets/.dockerignore",
+          "source_sha256": "ff512deb8e262266fc5b737f72aea4cf5d17e0cbe7148a1cb229007b64d9d87c",
+          "canonical_sha256": "ff512deb8e262266fc5b737f72aea4cf5d17e0cbe7148a1cb229007b64d9d87c"
+        },
+        {
+          "path": "assets/.gitignore",
+          "source_sha256": "339567eda28bfe80f2009d2bb5743d65b383956690a14b00cbe88288438d9b32",
+          "canonical_sha256": "339567eda28bfe80f2009d2bb5743d65b383956690a14b00cbe88288438d9b32"
+        },
+        {
+          "path": "assets/.golangci.yml",
+          "source_sha256": "c827557d1a2309c6f2d57508865ed4598196465721305bd3e09ab9964d1e27d3",
+          "canonical_sha256": "c827557d1a2309c6f2d57508865ed4598196465721305bd3e09ab9964d1e27d3"
+        },
+        {
+          "path": "assets/AGENTS.md",
+          "source_sha256": "4389ee31c1f3140a3e380b558f36ad453c3a2bab6a46acd029ab6076861bbc4a",
+          "canonical_sha256": "4389ee31c1f3140a3e380b558f36ad453c3a2bab6a46acd029ab6076861bbc4a"
+        },
+        {
+          "path": "assets/LICENSE",
+          "source_sha256": "002c2696d92b5c8cf956c11072baa58eaf9f6ade995c031ea635c6a1ee342ad1",
+          "canonical_sha256": "002c2696d92b5c8cf956c11072baa58eaf9f6ade995c031ea635c6a1ee342ad1"
+        },
+        {
+          "path": "assets/lint.yml",
+          "source_sha256": "ffca810d6f18c8d73c26cd9833e68e66ca8953610111e2595687548fc5137ce1",
+          "canonical_sha256": "ffca810d6f18c8d73c26cd9833e68e66ca8953610111e2595687548fc5137ce1"
+        },
+        {
+          "path": "assets/README.md",
+          "source_sha256": "bfa515e4ede6e72e7a6169e008bf9f8bd34d2d292a26c7db0d633e2adcbb224b",
+          "canonical_sha256": "bfa515e4ede6e72e7a6169e008bf9f8bd34d2d292a26c7db0d633e2adcbb224b"
+        },
+        {
+          "path": "assets/test.yml",
+          "source_sha256": "4e87f33bd060412ef9b7929ab476e64ba1d9ac07e368851d3bb324df9d3d48d0",
+          "canonical_sha256": "4e87f33bd060412ef9b7929ab476e64ba1d9ac07e368851d3bb324df9d3d48d0"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "1eacd5d78002ffbf3c3d74528b7e5bfc6e11470a0e8b98d796df0447f76a2891",
+          "canonical_sha256": "064b86843501f547b7a37875522e133341c4d80aa3a0462d0ca936258e814b94"
+        }
+      ]
+    },
+    {
+      "source": "go-senior-developer",
+      "canonical": "senior-developer",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "source_sha256": "bdec1e45bb0428626021a345b5a27808e172d94c05eefd2a878139381d7f420d",
+          "canonical_sha256": "01067950bec96095816504fa7612838d76e9e19587573de26cebdb37639340d0"
+        }
+      ]
+    },
+    {
+      "source": "go-uber-style-guide",
+      "canonical": "uber-style-guide",
+      "files": [
+        {
+          "path": "assets/.golangci.yml",
+          "source_sha256": "384ae59bce8ef671b2bf0f5042e978e3ab6362b59ef0fa60ffbd85ebbfc3cbe7",
+          "canonical_sha256": "384ae59bce8ef671b2bf0f5042e978e3ab6362b59ef0fa60ffbd85ebbfc3cbe7"
+        },
+        {
+          "path": "references/style.md",
+          "source_sha256": "6a9ebd4c9cccc10dbe898e6759cb4c8fbf60000e3c36f68cc1a2ff54fd80b8eb",
+          "canonical_sha256": "6a9ebd4c9cccc10dbe898e6759cb4c8fbf60000e3c36f68cc1a2ff54fd80b8eb"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "2d11f25538afb08b7ede67544bcb5f7c57904a02a8a22b08762cb90e4b53f2f6",
+          "canonical_sha256": "759ba3a36bedbc342ac9a545dc4bfa5356ee73110a6408ba9686c7e31ab804aa"
+        }
+      ]
+    },
+    {
+      "source": "golangci-lint-strict",
+      "canonical": "golangci-lint-strict",
+      "files": [
+        {
+          "path": "assets/install-strict-config.sh",
+          "source_sha256": "e72a666f936ac0c83cc518c53e7030516cfbd4f187360a474ad0e9e55a0aaf1e",
+          "canonical_sha256": "e72a666f936ac0c83cc518c53e7030516cfbd4f187360a474ad0e9e55a0aaf1e"
+        },
+        {
+          "path": "references/latest-2.10.1.golangci.yml",
+          "source_sha256": "01334bfdf1ce72448b9d5f1fe8235a56cdaefbc894df353fb34ae7b4d6ec339e",
+          "canonical_sha256": "01334bfdf1ce72448b9d5f1fe8235a56cdaefbc894df353fb34ae7b4d6ec339e"
+        },
+        {
+          "path": "references/versions-snapshot.md",
+          "source_sha256": "55a44c394b1a273c82411d9dedf701d73ebafb144039f85440a7d50902e597e0",
+          "canonical_sha256": "55a44c394b1a273c82411d9dedf701d73ebafb144039f85440a7d50902e597e0"
+        },
+        {
+          "path": "SKILL.md",
+          "source_sha256": "c5f2dd6c717c39515631da0a1571cbb609df4b75acc35b55054e98a7238eccad",
+          "canonical_sha256": "c5f2dd6c717c39515631da0a1571cbb609df4b75acc35b55054e98a7238eccad"
+        }
+      ]
+    }
+  ]
+}

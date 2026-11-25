@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Go Best Practices"
+  short_description: "Apply Google's Go best practices"
+  default_prompt: "Use $gopher:google-best-practices to improve this Go code."

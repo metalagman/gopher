@@ -1,0 +1,21 @@
+{
+  "name": "gopher",
+  "owner": {
+    "name": "Alexey Samoylov"
+  },
+  "metadata": {
+    "description": "Go engineering skills for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gopher",
+      "description": "Go engineering skills for coding-agent hosts.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Alexey Samoylov"
+      },
+      "source": "./plugins/gopher"
+    }
+  ]
+}

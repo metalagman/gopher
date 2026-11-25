@@ -1,0 +1,26 @@
+{
+  "name": "gopher",
+  "owner": {
+    "name": "Alexey Samoylov"
+  },
+  "metadata": {
+    "description": "Go engineering skills for GitHub Copilot CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gopher",
+      "description": "Go engineering skills for coding-agent hosts.",
+      "version": "0.1.0",
+      "source": "./plugins/gopher",
+      "author": {
+        "name": "Alexey Samoylov",
+        "url": "https://github.com/metalagman"
+      },
+      "homepage": "https://github.com/metalagman/gopher",
+      "repository": "https://github.com/metalagman/gopher",
+      "license": "MIT",
+      "keywords": ["go", "golang", "agent-skills"]
+    }
+  ]
+}

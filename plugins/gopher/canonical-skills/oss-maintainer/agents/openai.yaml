@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go OSS Maintainer"
+  short_description: "Maintain production-grade Go repositories"
+  default_prompt: "Use $gopher:oss-maintainer to improve this Go repository."

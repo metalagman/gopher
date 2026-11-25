@@ -1,0 +1,4 @@
+interface:
+  display_name: "Uber Go Style Guide"
+  short_description: "Apply the Uber Go style guide"
+  default_prompt: "Use $gopher:uber-style-guide to review this Go code for style."

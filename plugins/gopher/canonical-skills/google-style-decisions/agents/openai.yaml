@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Go Style Decisions"
+  short_description: "Apply Google Go style decisions"
+  default_prompt: "Use $gopher:google-style-decisions to resolve this Go style decision."

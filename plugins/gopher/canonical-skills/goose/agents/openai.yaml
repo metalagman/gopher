@@ -1,0 +1,4 @@
+interface:
+  display_name: "Goose Migrations"
+  short_description: "Plan and implement Goose migrations"
+  default_prompt: "Use $gopher:goose to plan or review this database migration."

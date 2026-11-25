@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go ADK"
+  short_description: "Build and operate Go ADK agents"
+  default_prompt: "Use $gopher:adk to build or troubleshoot this Go ADK agent."

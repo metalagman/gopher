@@ -1,0 +1,26 @@
+{
+  "name": "gopher",
+  "version": "0.1.0",
+  "description": "Go engineering skills for coding-agent hosts.",
+  "author": {
+    "name": "Alexey Samoylov",
+    "url": "https://github.com/metalagman"
+  },
+  "homepage": "https://github.com/metalagman/gopher",
+  "repository": "https://github.com/metalagman/gopher",
+  "license": "MIT",
+  "keywords": ["go", "golang", "agent-skills", "coding-agents"],
+  "skills": "./canonical-skills/",
+  "interface": {
+    "displayName": "Gopher",
+    "shortDescription": "Go engineering skills.",
+    "longDescription": "Go architecture, tooling, migrations, style, maintenance, and framework guidance.",
+    "developerName": "Alexey Samoylov",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "$gopher:senior-developer Review this Go system.",
+      "$gopher:google-style-guide Review this Go code for style."
+    ]
+  }
+}

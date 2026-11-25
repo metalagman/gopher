@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go Options Gen"
+  short_description: "Generate functional options for Go"
+  default_prompt: "Use $gopher:options-gen to generate functional options for this Go type."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Go Style Guide"
+  short_description: "Apply the Google Go style guide"
+  default_prompt: "Use $gopher:google-style-guide to review this Go code for style."

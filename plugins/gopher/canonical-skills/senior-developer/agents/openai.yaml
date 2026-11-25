@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior Go Developer"
+  short_description: "Design and review advanced Go systems"
+  default_prompt: "Use $gopher:senior-developer to design or review this Go system."
